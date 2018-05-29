@@ -33,6 +33,47 @@ Process of discovering useful knowledge from a collection of data. The knowledge
 ## What is Machine Learning?
 Machine Learning is a form of Artificial Intelligence in which the program is designed to learn on its own. Machine Learning is a way of programming a computer to learn to do a task on its own, rather than you having to implicitly tell it how to accomplish the task. Machine learning investigates how computers can learn (or improve their performance) based on data. 
 
+## Major Issues in Data Mining
+### Mining Methodology
+	1. Mining various and new kinds of knowledge: Due to the diversity of applications, new mining tasks continue to emerge, making data mining a dynamic and fast-growing field
+
+	2. Mining knowledge in multidimensional space: n many cases, data can be aggregated or viewed as a multidimensional data cube. Mining knowledge in cube space can substantially enhance the power and flexibility of data mining. 
+
+	3. Data mining
+
+	4. Handling uncertainty, noise, or incompleteness of data
+
+### User Interaction
+	
+	1. Interactive mining: Build flexible user interfaces and an exploratory mining environment,
+facilitating the user’s interaction with the system
+
+	2. Incorporation of background knowledge
+
+	3. Ad hoc data mining and data mining query languages
+
+	4. Presentation and visualization of data mining results
+
+### Efficiency and Scalability
+
+	1. Efficiency and scalability of data mining algorithms
+
+	2. Parallel, distributed, and incremental mining algorithms
+
+### Diversity of Database Types
+
+	1. Handling complex types of data
+
+	2. Mining dynamic, networked, and global data repositories
+
+### Data Mining and Society
+	
+	1. Social impacts of data mining: The improper disclosure or use of data and the potential violation of individual privacy and data protection rights are areas of concern that need to be addressed.
+
+	2. Privacy-preserving data mining: The philosophy is to observe data sensitivity and preserve people’s privacy while performing successful data mining.
+
+	3. Invisible data mining: For example, when purchasing items online, users may be unaware that the store is likely collecting data on the buying patterns of its customers, which may be used to recommend other items for purchase in the future.
+
 ## Type of Data Attributes
 
 	1. Nominal Attributes: 
@@ -81,5 +122,50 @@ Machine Learning is a form of Artificial Intelligence in which the program is de
 
 ## Mean
 
-	1. 
+	1. The most common and effective numeric measure of the “center” of a set of data
 
+	2. A major problem with the mean is its sensitivity to extreme (e.g., outlier) values
+
+	3. To offset the effect caused by a small number of extreme values, we can instead use the trimmed mean, which is the mean obtained after chopping off values at the high and low extremes.
+
+## Median 
+
+	1. Middle value in a set of ordered data values
+
+	2. The median is expensive to compute when we have a large number of observations.
+
+## Mode
+
+	1. The mode for a set of data is the value that occurs most frequently in the set
+
+	2. Data sets with one, two, or three modes are respectively called unimodal, bimodal, and trimodal.
+
+## Range, Quartiles, and Interquartile Range
+
+	1. The range of the set is the difference between the largest (max()) and smallest (min()) values.
+
+	2. Quantiles are points taken at regular intervals of a data distribution, dividing it into essentially equal size consecutive sets.
+
+	3. The 4-quantiles are the three data points that split the data distribution into four equal parts; each part represents one-fourth of the data distribution. They are more commonly referred to as quartiles.
+
+	4. The quartiles give an indication of a distribution’s center, spread, and shape. 
+
+	5. The first quartile, denoted by Q1, is the 25th percentile. It cuts off the lowest 25% of the data. The third quartile, denoted by Q3, is the 75th percentile. It cuts off the lowest 75% (or highest 25%) of the data. The second quartile is the 50th percentile. As the median, it gives the center of the data distribution.
+
+	6. The distance between the first and third quartiles is a simple measure of spread that gives the range covered by the middle half of the data. This distance is called the interquartile range (IQR)
+
+## Five-Number Summary, Boxplots, and Outliers
+	
+	1. The five-number summary of a distribution consists of the median (Q 2 ), the quartiles Q 1 and Q 3 , and the smallest and largest individual observations, written in the order of Minimum, Q 1 , Median, Q 3 , Maximum.
+
+	2. Boxplots are a popular way of visualizing a distribution. 
+
+	3. A boxplot incorporates the five-number summary as follows:
+
+		a. The ends of the box are at the quartiles so that the box length is the interquartile range.
+
+		b. The median is marked by a line within the box
+
+		c. Two lines (called whiskers) outside the box extend to the smallest (Minimum) and largest (Maximum) observations.
+
+		d. ![Box Plot](https://pro.arcgis.com/en/pro-app/help/analysis/geoprocessing/charts/GUID-0E2C3730-C535-40CD-8152-80D794A996A7-web.png)
