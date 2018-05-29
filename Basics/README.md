@@ -45,8 +45,7 @@ Machine Learning is a form of Artificial Intelligence in which the program is de
 
 ### User Interaction
 	
-	1. Interactive mining: Build flexible user interfaces and an exploratory mining environment,
-facilitating the user’s interaction with the system
+	1. Interactive mining: Build flexible user interfaces and an exploratory mining environment, facilitating the user’s interaction with the system
 
 	2. Incorporation of background knowledge
 
@@ -168,4 +167,11 @@ facilitating the user’s interaction with the system
 
 		c. Two lines (called whiskers) outside the box extend to the smallest (Minimum) and largest (Maximum) observations.
 
-		d. ![Box Plot](https://pro.arcgis.com/en/pro-app/help/analysis/geoprocessing/charts/GUID-0E2C3730-C535-40CD-8152-80D794A996A7-web.png)
+	4. Variance and standard deviation are measures of data dispersion.
+
+	5. A low standard deviation means that the data observations tend to be very close to the mean, while a high standard deviation indicates that the data are spread out over a large range of values.
+
+	6. The standard deviation, σ , of the observations is the square root of the variance
+
+
+
