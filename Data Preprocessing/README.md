@@ -118,5 +118,7 @@ To help avoid dependence on the choice of measurement units, the data should be 
 	c. Min-max normalization maps a value, vi, of A to vi` in the range [new-minA , new-maxA ]
 
 	d. v i 0 =  vi − minA  (new max A − new min A ) + new min A
+
 			   -----------
+	
 			   maxA − minA
