@@ -109,4 +109,14 @@ To help avoid dependence on the choice of measurement units, the data should be 
 
 ### Normalizing the data attempts to give all attributes an equal weight. 
 
-	1. 
+1. Min-max normalization
+	
+	a. Performs a linear transformation on the original data
+
+	b. Suppose that minA and maxA are the minimum and maximum values of an attribute, A.
+
+	c. Min-max normalization maps a value, vi, of A to vi` in the range [new-minA , new-maxA ]
+
+	d. v i 0 =  vi − minA  (new max A − new min A ) + new min A
+			   -----------
+			   maxA − minA
