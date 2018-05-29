@@ -117,8 +117,20 @@ To help avoid dependence on the choice of measurement units, the data should be 
 
 	c. Min-max normalization maps a value, vi, of A to vi` in the range [new-minA , new-maxA ]
 
-	d. v i 0 =  vi − minA  (new max A − new min A ) + new min A
+	d. vi` =  [(vi − minA) (new max A − new min A ) / (maxA − minA)] + new min A
 
-			   -----------
-	
-			   maxA − minA
+2. z-score
+
+	a. In z-score normalization (or zero-mean normalization), the values for an attribute, A, are normalized based on the mean (i.e., average) and standard deviation of A
+
+	b. A value, v i, of A is normalized to vi` by computing vi` = (vi − Ā) / σA
+
+	c. where Ā and σ A are the mean and standard deviation, respectively, of attribute A
+
+3. Decimal scaling
+
+	a. By moving the decimal point of values of attribute A
+
+	b. The number of decimal points moved depends on the maximum absolut value of A
+
+	c. A value, vi, of A is normalized to vi` by computing vi = vi` / 10j
