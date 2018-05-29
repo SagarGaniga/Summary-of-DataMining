@@ -12,13 +12,14 @@ Process of discovering useful knowledge from a collection of data. The knowledge
 	
 	3. Data selection: Data relevant to the analysis are retrieved from the database
 	
-	4. Data transformation: Data are transformed and consolidated into forms appropriate for mining   	 by performing summary or aggregation operations
+	4. Data transformation: Data are transformed and consolidated into forms appropriate
+	by performing summary or aggregation operations
 	
 	5. Data mining: Intelligent methods are applied to extract data patterns
 	
-	6. Pattern evaluation: Identify the truly interesting patterns representing knowledge based on 	   interestingness measures
+	6. Pattern evaluation: Identify the truly interesting patterns representing knowledge based interestingness measures
 	
-	7. Knowledge presentation: Visualization and knowledge representation techniques are used        	to resent mined knowledge to users
+	7. Knowledge presentation: Visualization and knowledge representation techniques are used to resent mined knowledge to users
 
 ## What Kinds of Data Can Be Mined?
 	
@@ -26,7 +27,7 @@ Process of discovering useful knowledge from a collection of data. The knowledge
 
 	2. Data Warehouse
 
-	3. Transactional Data: such as a customer’s purchase, a flight booking, or a user’s clicks on web 	 page
+	3. Transactional Data: such as a customer’s purchase, a flight booking, or a user’s clicks on web page
 
 
 ## What is Machine Learning?
